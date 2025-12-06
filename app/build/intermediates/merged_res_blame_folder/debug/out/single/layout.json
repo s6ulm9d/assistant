@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.soulassistant.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.soulassistant.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.soulassistant.app-mergeDebugResources-37:/layout/item_message_assistant.xml",
+        "source": "com.soulassistant.app-main-40:/layout/item_message_assistant.xml"
+    },
+    {
+        "merged": "com.soulassistant.app-mergeDebugResources-37:/layout/item_message_user.xml",
+        "source": "com.soulassistant.app-main-40:/layout/item_message_user.xml"
+    }
+]

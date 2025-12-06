@@ -1,0 +1,478 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:2:1-91:12
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\ba5ba713ad05ed98ad29d1a2da6607d6\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\soulmad\.gradle\caches\transforms-3\8c8fbb2848a63aa0d5c91ec55c7af1bd\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\soulmad\.gradle\caches\transforms-3\344887e4df8ca7b5035b94dcc25f6ce7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\c7e471665840914a7c935bad908ddccd\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\d60bc8a3671872a55a64ec0b21cf5d04\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\7faeee3f78f32fadca6f12e2a49e20dc\transformed\jetified-hilt-android-2.51\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\22c602f2e1896a6009a877c0a421a29e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\f3e4374e1a65029e23e43aa2644b1485\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\2c593932c61393d24bf30383c33eb5fd\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\1a4535d183650074c7fb6b5ac27d1ef0\transformed\jetified-activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\d04f88738a62872406bc53848db03af9\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\8393d882fcb189d994b84dfa92a5e44b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\a8bda6f70fccaef702e54495aba6dad3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\178e4bee10a7bb398e852d34ea1965e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9ecd19cda6f416804b131169d4476665\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\7427817a9f149251f6435789fab87f50\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\1be52bec6616acdfd9f6dd417013b088\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\2320a04e804cbcf7a43b4967b735c4d2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\62590b713fed7076f71528f1b8378196\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\96be25e2965447aba18b896d299a0a7d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\87a1a711db0d19ac70536880e50e02f4\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ad90da66ab4da044b6fdd19a88a753b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\0e92b363b5eee9ba702881c1a360326f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4e5872c0133129216ff928a3f3a1a243\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\bf85bf0d80730f73a8fed8572ba199ac\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\26b77c3b80e121cfd85bdb2e494e2e2e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\9934a49eb0ca390e76aeddac0fe12367\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\61e6537791be3e6e8cd99e0730247f0f\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\25c6d3db839bb2789de9e092cd684ef3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4acd6909bf40b5ea164a0ce2b2a40101\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\897eedcd9bbfc95c46c748991815845a\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\284ac936c9e56d6d290714c923344ea9\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ecc46b822b086b9d64de79268ab5f7c\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\369e9b91fc076adba61a1132824a7aa1\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\d6e46455aa4cd8e9f5ba4f8c1028b173\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\soulmad\.gradle\caches\transforms-3\cba8ac2ccc65625f40ebf2a39e641bf6\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\e5b7d3747b9cc9bb668060104d65f11f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4736ffb898eaaf555765a8d542999b0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\a81a35a9439bb2a51365b01a23eb75c1\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\fc4ef7064eea6daa3ba6f85e00f5869f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\c4792ecfb49fdd881783adb8bade557b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4707ac7a86fe33a995947851250a2b9\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\40f2d6c8bedf910fcb2d1cbd916c8b73\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9f2b21d91ecb279f2b59cca3f063db02\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\70d80cb84a7a5cbd7179b3bb55099905\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\6565a118350e18b310ee5583fec20735\transformed\jetified-dagger-lint-aar-2.51\AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:19:22-66
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:27:5-28:40
+	tools:ignore
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:28:9-37
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:27:22-79
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:29:5-76
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:30:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:31:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:34:5-95
+	android:maxSdkVersion
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:34:66-92
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:35:5-101
+	android:maxSdkVersion
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:35:72-98
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:35:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:36:22-73
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:37:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:38:5-69
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:38:22-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:39:5-78
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:39:22-75
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:42:5-43:53
+	tools:ignore
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:43:9-50
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:42:22-74
+application
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:45:5-89:19
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:45:5-89:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\soulmad\.gradle\caches\transforms-3\8c8fbb2848a63aa0d5c91ec55c7af1bd\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\soulmad\.gradle\caches\transforms-3\8c8fbb2848a63aa0d5c91ec55c7af1bd\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\soulmad\.gradle\caches\transforms-3\344887e4df8ca7b5035b94dcc25f6ce7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\soulmad\.gradle\caches\transforms-3\344887e4df8ca7b5035b94dcc25f6ce7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\fc4ef7064eea6daa3ba6f85e00f5869f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\fc4ef7064eea6daa3ba6f85e00f5869f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:53:9-35
+	android:label
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:51:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:49:9-54
+	android:roundIcon
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:52:9-54
+	tools:targetApi
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:55:9-29
+	android:icon
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:50:9-43
+	android:allowBackup
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:47:9-35
+	android:theme
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:54:9-53
+	android:dataExtractionRules
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:48:9-65
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:46:9-42
+activity#com.soulassistant.app.presentation.MainActivity
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:exported
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:59:13-36
+	android:theme
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:60:13-57
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:58:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:61:13-64:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:27-74
+service#com.soulassistant.app.data.service.JarvisNotificationListener
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:9-74:19
+	android:label
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:68:13-49
+	android:exported
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:70:13-36
+	android:permission
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:69:13-87
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:18-73
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:71:13-73:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:17-99
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:25-96
+service#com.soulassistant.app.data.service.JarvisAccessibilityService
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:76:9-87:19
+	android:label
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:78:13-64
+	android:exported
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:80:13-36
+	android:permission
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:79:13-79
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:77:13-68
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:81:13-83:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:17-92
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:84:13-86:72
+	android:resource
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:85:17-60
+uses-sdk
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\ba5ba713ad05ed98ad29d1a2da6607d6\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\ba5ba713ad05ed98ad29d1a2da6607d6\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\soulmad\.gradle\caches\transforms-3\8c8fbb2848a63aa0d5c91ec55c7af1bd\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\soulmad\.gradle\caches\transforms-3\8c8fbb2848a63aa0d5c91ec55c7af1bd\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\soulmad\.gradle\caches\transforms-3\344887e4df8ca7b5035b94dcc25f6ce7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\soulmad\.gradle\caches\transforms-3\344887e4df8ca7b5035b94dcc25f6ce7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\c7e471665840914a7c935bad908ddccd\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\c7e471665840914a7c935bad908ddccd\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\d60bc8a3671872a55a64ec0b21cf5d04\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soulmad\.gradle\caches\transforms-3\d60bc8a3671872a55a64ec0b21cf5d04\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\7faeee3f78f32fadca6f12e2a49e20dc\transformed\jetified-hilt-android-2.51\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\7faeee3f78f32fadca6f12e2a49e20dc\transformed\jetified-hilt-android-2.51\AndroidManifest.xml:18:3-42
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\22c602f2e1896a6009a877c0a421a29e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\22c602f2e1896a6009a877c0a421a29e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\f3e4374e1a65029e23e43aa2644b1485\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\f3e4374e1a65029e23e43aa2644b1485\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\2c593932c61393d24bf30383c33eb5fd\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\soulmad\.gradle\caches\transforms-3\2c593932c61393d24bf30383c33eb5fd\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\1a4535d183650074c7fb6b5ac27d1ef0\transformed\jetified-activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\1a4535d183650074c7fb6b5ac27d1ef0\transformed\jetified-activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\d04f88738a62872406bc53848db03af9\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\soulmad\.gradle\caches\transforms-3\d04f88738a62872406bc53848db03af9\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\8393d882fcb189d994b84dfa92a5e44b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\8393d882fcb189d994b84dfa92a5e44b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\a8bda6f70fccaef702e54495aba6dad3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\a8bda6f70fccaef702e54495aba6dad3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\178e4bee10a7bb398e852d34ea1965e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\178e4bee10a7bb398e852d34ea1965e9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9ecd19cda6f416804b131169d4476665\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9ecd19cda6f416804b131169d4476665\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\7427817a9f149251f6435789fab87f50\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\7427817a9f149251f6435789fab87f50\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\1be52bec6616acdfd9f6dd417013b088\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\1be52bec6616acdfd9f6dd417013b088\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\2320a04e804cbcf7a43b4967b735c4d2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\2320a04e804cbcf7a43b4967b735c4d2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\62590b713fed7076f71528f1b8378196\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\62590b713fed7076f71528f1b8378196\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\96be25e2965447aba18b896d299a0a7d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\96be25e2965447aba18b896d299a0a7d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\87a1a711db0d19ac70536880e50e02f4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\soulmad\.gradle\caches\transforms-3\87a1a711db0d19ac70536880e50e02f4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ad90da66ab4da044b6fdd19a88a753b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ad90da66ab4da044b6fdd19a88a753b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\0e92b363b5eee9ba702881c1a360326f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\0e92b363b5eee9ba702881c1a360326f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4e5872c0133129216ff928a3f3a1a243\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4e5872c0133129216ff928a3f3a1a243\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\bf85bf0d80730f73a8fed8572ba199ac\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\bf85bf0d80730f73a8fed8572ba199ac\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\26b77c3b80e121cfd85bdb2e494e2e2e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soulmad\.gradle\caches\transforms-3\26b77c3b80e121cfd85bdb2e494e2e2e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\9934a49eb0ca390e76aeddac0fe12367\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\9934a49eb0ca390e76aeddac0fe12367\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\61e6537791be3e6e8cd99e0730247f0f\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\61e6537791be3e6e8cd99e0730247f0f\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\25c6d3db839bb2789de9e092cd684ef3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\25c6d3db839bb2789de9e092cd684ef3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4acd6909bf40b5ea164a0ce2b2a40101\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\4acd6909bf40b5ea164a0ce2b2a40101\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\897eedcd9bbfc95c46c748991815845a\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\897eedcd9bbfc95c46c748991815845a\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\284ac936c9e56d6d290714c923344ea9\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\284ac936c9e56d6d290714c923344ea9\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ecc46b822b086b9d64de79268ab5f7c\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\6ecc46b822b086b9d64de79268ab5f7c\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\369e9b91fc076adba61a1132824a7aa1\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\369e9b91fc076adba61a1132824a7aa1\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\d6e46455aa4cd8e9f5ba4f8c1028b173\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\d6e46455aa4cd8e9f5ba4f8c1028b173\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\soulmad\.gradle\caches\transforms-3\cba8ac2ccc65625f40ebf2a39e641bf6\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\soulmad\.gradle\caches\transforms-3\cba8ac2ccc65625f40ebf2a39e641bf6\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\e5b7d3747b9cc9bb668060104d65f11f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\e5b7d3747b9cc9bb668060104d65f11f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4736ffb898eaaf555765a8d542999b0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4736ffb898eaaf555765a8d542999b0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\a81a35a9439bb2a51365b01a23eb75c1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\a81a35a9439bb2a51365b01a23eb75c1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\fc4ef7064eea6daa3ba6f85e00f5869f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\fc4ef7064eea6daa3ba6f85e00f5869f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\c4792ecfb49fdd881783adb8bade557b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\c4792ecfb49fdd881783adb8bade557b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4707ac7a86fe33a995947851250a2b9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\d4707ac7a86fe33a995947851250a2b9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\40f2d6c8bedf910fcb2d1cbd916c8b73\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\40f2d6c8bedf910fcb2d1cbd916c8b73\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9f2b21d91ecb279f2b59cca3f063db02\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\9f2b21d91ecb279f2b59cca3f063db02\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\70d80cb84a7a5cbd7179b3bb55099905\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soulmad\.gradle\caches\transforms-3\70d80cb84a7a5cbd7179b3bb55099905\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\6565a118350e18b310ee5583fec20735\transformed\jetified-dagger-lint-aar-2.51\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] C:\Users\soulmad\.gradle\caches\transforms-3\6565a118350e18b310ee5583fec20735\transformed\jetified-dagger-lint-aar-2.51\AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soulmad\.gradle\caches\transforms-3\11a2e60fb1c7291052ad1ffde5266614\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.soulassistant.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.soulassistant.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\soulmad\.gradle\caches\transforms-3\a59fb26c93fb11b422e1e28d9e99e35c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
