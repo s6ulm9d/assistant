@@ -53,6 +53,7 @@ class GeminiRepositoryImpl @Inject constructor(
             // Fallback for non-JSON response (shouldn't happen with strict prompt)
             return AiResponse(
                 action = "GENERAL_ANSWER",
+                actions = null,
                 params = emptyMap(),
                 message = text
             )

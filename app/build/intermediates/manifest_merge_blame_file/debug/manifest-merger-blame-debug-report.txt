@@ -137,136 +137,135 @@
 69-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:52:9-54
 70        android:supportsRtl="true"
 70-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:53:9-35
-71        android:testOnly="true"
-72        android:theme="@style/Theme.JarvisAssistant" >
-72-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:54:9-53
-73        <activity
-73-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:57:9-65:20
-74            android:name="com.soulassistant.app.presentation.MainActivity"
-74-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:58:13-54
-75            android:exported="true"
-75-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:59:13-36
-76            android:theme="@style/Theme.JarvisAssistant" >
-76-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:60:13-57
-77            <intent-filter>
-77-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:61:13-64:29
-78                <action android:name="android.intent.action.MAIN" />
-78-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:17-69
-78-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:25-66
-79
-80                <category android:name="android.intent.category.LAUNCHER" />
-80-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:17-77
-80-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:27-74
-81            </intent-filter>
-82        </activity>
-83
-84        <service
-84-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:9-74:19
-85            android:name="com.soulassistant.app.data.service.JarvisNotificationListener"
-85-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:18-73
-86            android:exported="true"
-86-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:70:13-36
-87            android:label="@string/service_name"
-87-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:68:13-49
-88            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
-88-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:69:13-87
-89            <intent-filter>
-89-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:71:13-73:29
-90                <action android:name="android.service.notification.NotificationListenerService" />
-90-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:17-99
-90-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:25-96
-91            </intent-filter>
-92        </service>
-93        <service
-93-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:76:9-87:19
-94            android:name="com.soulassistant.app.data.service.JarvisAccessibilityService"
-94-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:77:13-68
-95            android:exported="true"
-95-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:80:13-36
-96            android:label="@string/accessibility_service_label"
-96-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:78:13-64
-97            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-97-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:79:13-79
-98            <intent-filter>
-98-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:81:13-83:29
-99                <action android:name="android.accessibilityservice.AccessibilityService" />
-99-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:17-92
-99-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:25-89
-100            </intent-filter>
-101
-102            <meta-data
-102-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:84:13-86:72
-103                android:name="android.accessibilityservice"
-103-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:85:17-60
-104                android:resource="@xml/accessibility_service_config" />
-104-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:86:17-69
-105        </service>
-106
-107        <provider
-107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-108            android:name="androidx.startup.InitializationProvider"
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-109            android:authorities="com.soulassistant.app.androidx-startup"
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-110            android:exported="false" >
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-111            <meta-data
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-113                android:value="androidx.startup" />
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-114            <meta-data
-114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-115-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-116                android:value="androidx.startup" />
-116-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-117            <meta-data
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-118                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-119                android:value="androidx.startup" />
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-120        </provider>
-121
-122        <receiver
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-124            android:directBootAware="false"
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-125            android:enabled="true"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-126            android:exported="true"
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-127            android:permission="android.permission.DUMP" >
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-128            <intent-filter>
-128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-130            </intent-filter>
-131            <intent-filter>
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-133            </intent-filter>
-134            <intent-filter>
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-136            </intent-filter>
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-139            </intent-filter>
-140        </receiver>
-141    </application>
-142
-143</manifest>
+71        android:theme="@style/Theme.JarvisAssistant" >
+71-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:54:9-53
+72        <activity
+72-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:57:9-65:20
+73            android:name="com.soulassistant.app.presentation.MainActivity"
+73-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:58:13-54
+74            android:exported="true"
+74-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:59:13-36
+75            android:theme="@style/Theme.JarvisAssistant" >
+75-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:60:13-57
+76            <intent-filter>
+76-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:61:13-64:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:17-69
+77-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:62:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:17-77
+79-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:63:27-74
+80            </intent-filter>
+81        </activity>
+82
+83        <service
+83-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:9-74:19
+84            android:name="com.soulassistant.app.data.service.JarvisNotificationListener"
+84-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:67:18-73
+85            android:exported="true"
+85-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:70:13-36
+86            android:label="@string/service_name"
+86-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:68:13-49
+87            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+87-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:69:13-87
+88            <intent-filter>
+88-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:71:13-73:29
+89                <action android:name="android.service.notification.NotificationListenerService" />
+89-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:17-99
+89-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:72:25-96
+90            </intent-filter>
+91        </service>
+92        <service
+92-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:76:9-87:19
+93            android:name="com.soulassistant.app.data.service.JarvisAccessibilityService"
+93-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:77:13-68
+94            android:exported="true"
+94-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:80:13-36
+95            android:label="@string/accessibility_service_label"
+95-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:78:13-64
+96            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+96-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:79:13-79
+97            <intent-filter>
+97-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:81:13-83:29
+98                <action android:name="android.accessibilityservice.AccessibilityService" />
+98-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:17-92
+98-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:82:25-89
+99            </intent-filter>
+100
+101            <meta-data
+101-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:84:13-86:72
+102                android:name="android.accessibilityservice"
+102-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:85:17-60
+103                android:resource="@xml/accessibility_service_config" />
+103-->C:\Users\soulmad\projects\assistant\app\src\main\AndroidManifest.xml:86:17-69
+104        </service>
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.soulassistant.app.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soulmad\.gradle\caches\transforms-3\a56a0d4967fdd4dc3dc0896b441206df\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soulmad\.gradle\caches\transforms-3\ade431c7b8f0762b7b1fd74dc5c495f0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soulmad\.gradle\caches\transforms-3\76689b940440a58b7d4d83fbc979df8f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>

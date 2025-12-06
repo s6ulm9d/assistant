@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -5,10 +7,14 @@ plugins {
     id("com.google.dagger.hilt.android")
 }
 
-val localProperties = java.util.Properties()
-val localPropertiesFile = rootProject.file("local.properties")
-if (localPropertiesFile.exists()) {
-    localPropertiesFile.inputStream().use { localProperties.load(it) }
+// Helper to load properties
+fun org.gradle.api.Project.getLocalProperty(key: String): String {
+    val properties = Properties()
+    val localPropertiesFile = rootProject.file("local.properties")
+    if (localPropertiesFile.exists()) {
+        localPropertiesFile.inputStream().use { properties.load(it) }
+    }
+    return properties.getProperty(key) ?: ""
 }
 
 kotlin {
@@ -28,7 +34,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         
-        val key = localProperties.getProperty("GEMINI_API_KEY") ?: ""
+        val key = project.getLocalProperty("GEMINI_API_KEY")
         buildConfigField("String", "GEMINI_API_KEY", "\"$key\"")
     }
 
